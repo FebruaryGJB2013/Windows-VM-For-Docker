@@ -46,3 +46,11 @@ docker stop linux-vm
 <p align="center">
   <b>It’s Just That Easy!</b>
 </p>
+
+<br />
+
+<div align="center">
+  <a href="https://github.com/GGVR1000/Mac-or-Linux-OS-VM/blob/main/WARNINGS.md">
+    <kbd><font color="red">Click to read the warnings!</font></kbd>
+  </a>
+</div>
