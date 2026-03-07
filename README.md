@@ -9,9 +9,12 @@
 
 ---
 
+### ⚠️ Important Setup Notice
+> **The installation process will take a while.** Please be patient and **only click once** when navigating the menus. During the Linux Ubuntu setup, the system lags heavily because KVM Hardware Acceleration is turned off (`KVM="N"`).
+
 ### Getting Started
 
-To get your environment up and running, please follow the instructions below. Ensure you have Docker Desktop installed and running before proceeding.
+To get your environment up and running, please follow the instructions below. Ensure you have Docker Desktop (or GitHub Codespaces) running before proceeding.
 
 1. **Open your terminal** (Command Prompt, PowerShell, or Terminal).
 2. **Execute the following command** to pull the image and start the container:
@@ -21,7 +24,7 @@ docker run -d --name linux-vm \
   -p 8006:8006 \
   --shm-size="2gb" \
   -v "$(pwd):/storage" \
-  -e VERSION="https://mirror.math.princeton.edu/pub/ubuntu-iso/20.04/ubuntu-20.04.6-desktop-amd64.iso" \
+  -e VERSION="[https://mirror.math.princeton.edu/pub/ubuntu-iso/20.04/ubuntu-20.04.6-desktop-amd64.iso](https://mirror.math.princeton.edu/pub/ubuntu-iso/20.04/ubuntu-20.04.6-desktop-amd64.iso)" \
   -e RAM_SIZE="4G" \
   -e DISK_SIZE="35G" \
   -e KVM="N" \
@@ -44,6 +47,12 @@ To stop the VM, run:
 docker stop linux-vm
 ```
 
+To view the live logs (helpful for troubleshooting), run:
+
+```bash
+docker logs -f linux-vm
+```
+
 <p align="center">
   <b>It’s Just That Easy!</b>
 </p>
@@ -51,7 +60,7 @@ docker stop linux-vm
 <br />
 
 <div align="center">
-  <a href="https://github.com/GGVR1000/Mac-or-Linux-OS-VM/blob/main/WARNINGS.md">
+  <a href="WARNINGS.md">
     <kbd><font color="red">Click to read the warnings!</font></kbd>
   </a>
 </div>
