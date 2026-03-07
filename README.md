@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-  <img src="[https://icon.icepanel.io/Technology/svg/Docker.svg](https://icon.icepanel.io/Technology/svg/Docker.svg)" width="120" alt="Docker Logo" />
+  <img src="https://icon.icepanel.io/Technology/svg/Docker.svg" width="120" alt="Docker Logo" />
   
   <h1 style="border-bottom: none;">Virtual Machine on Docker</h1>
   <p>A simple, containerized solution for running a Linux virtual machine within your Docker environment.</p>
@@ -31,9 +31,17 @@ docker run -d --name linux-vm \
 
 ### Managing the VM
 
-To start and stop the vm run commands:
+To start the VM, run:
 
-`docker start linux-vm` or `docker stop linux-vm`.
+```bash
+docker start linux-vm
+```
+
+To stop the VM, run:
+
+```bash
+docker stop linux-vm
+```
 
 <p align="center">
   <b>It’s Just That Easy!</b>
