@@ -10,7 +10,7 @@
 ---
 
 ### ⚠️ Important Setup Notice
-> **The installation process will take a while.** Please be patient and **only click once** when navigating the menus. During the Linux Ubuntu setup, the system lags heavily because KVM Hardware Acceleration is turned off (`KVM="N"`).
+> **The installation process will take a while.** Please be patient and **only click once** when navigating the menus. During the Linux Ubuntu setup, the system lags heavily because KVM Hardware Acceleration is turned off (`KVM="N"`), And Make Sure You Have Enough Monthly Time To Do This If Your Using Github Codespaces!
 
 ### Getting Started
 
