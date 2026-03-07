@@ -25,7 +25,7 @@ docker run -d --name linux-vm \
   --shm-size="2gb" \
   -v "$(pwd):/storage" \
   -e VERSION="[https://mirror.math.princeton.edu/pub/ubuntu-iso/20.04/ubuntu-20.04.6-desktop-amd64.iso](https://mirror.math.princeton.edu/pub/ubuntu-iso/20.04/ubuntu-20.04.6-desktop-amd64.iso)" \
-  -e RAM_SIZE="4G" \
+  -e RAM_SIZE="8G" \
   -e DISK_SIZE="35G" \
   -e KVM="N" \
   dockurr/windows
