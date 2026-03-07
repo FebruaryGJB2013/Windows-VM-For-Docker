@@ -19,11 +19,12 @@ To get your environment up and running, please follow the instructions below. En
 ```bash
 docker run -d --name linux-vm \
   -p 8006:8006 \
-  --device=/dev/kvm \
-  --cap-add NET_ADMIN \
-  -e VERSION="ubuntu" \
-  -e DISK_SIZE="45G" \
+  --shm-size="2gb" \
+  -v "$(pwd):/storage" \
+  -e VERSION="https://mirror.math.princeton.edu/pub/ubuntu-iso/20.04/ubuntu-20.04.6-desktop-amd64.iso" \
   -e RAM_SIZE="4G" \
+  -e DISK_SIZE="35G" \
+  -e KVM="N" \
   dockurr/windows
 ```
 
