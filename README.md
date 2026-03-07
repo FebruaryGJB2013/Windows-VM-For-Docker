@@ -25,12 +25,16 @@ docker run -d --name linux-vm \
   -e DISK_SIZE="45G" \
   -e RAM_SIZE="4G" \
   dockurr/windows
-Managing the VM
+```
+
+---
+
+### Managing the VM
 
 To start and stop the vm run commands:
 
-docker start linux-vm or docker stop linux-vm.
+`docker start linux-vm` or `docker stop linux-vm`.
 
 <p align="center">
-<b>It’s Just That Easy!</b>
+  <b>It’s Just That Easy!</b>
 </p>
