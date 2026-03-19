@@ -1,11 +1,11 @@
-<div align="center" style="display: flex; align-items: center; justify-content: center; gap: 20px; margin-bottom: 20px;">
+<div style="display: flex; align-items: center; justify-content: center; gap: 20px; flex-wrap: nowrap;">
 
   <!-- First icon -->
   <a href="https://your-first-link.com" target="_blank">
     <img src="https://icon.icepanel.io/Technology/svg/Docker.svg" width="150" alt="Docker Logo" />
   </a>
 
-  <!-- Real big gray slash / divider -->
+  <!-- Big gray slash divider -->
   <div style="width: 10px; height: 150px; background-color: gray;"></div>
 
   <!-- Second icon -->
@@ -15,8 +15,8 @@
 
 </div>
 
-<div align="center">
-  <h1 style="border-bottom: none; margin-top: 20px;">Virtual Machine on Docker</h1>
+<div style="text-align: center; margin-top: 20px;">
+  <h1 style="border-bottom: none;">Virtual Machine on Docker</h1>
   <p>A simple, containerized solution for running a Windows11 virtual machine within your Docker environment.</p>
 </div>
 
