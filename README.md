@@ -3,7 +3,7 @@
   <img src="https://icon.icepanel.io/Technology/svg/Docker.svg" width="220" alt="Docker Logo" />
   
   <h1 style="border-bottom: none;">Virtual Machine on Docker</h1>
-  <p>A simple, containerized solution for running a Linux virtual machine within your Docker environment.</p>
+  <p>A simple, containerized solution for running a Windows11 virtual machine within your Docker environment.</p>
   <br />
 </div>
 
