@@ -1,22 +1,25 @@
 <div align="center" style="display: flex; align-items: center; justify-content: center; gap: 20px; margin-bottom: 20px;">
+
   <!-- First icon -->
   <a href="https://your-first-link.com" target="_blank">
     <img src="https://icon.icepanel.io/Technology/svg/Docker.svg" width="220" alt="Docker Logo" />
   </a>
 
-  <!-- Big gray slash -->
-  <span style="font-size: 220px; color: gray; line-height: 1;">/</span>
+  <!-- Big gray slash, matching icon height -->
+  <span style="display: inline-block; height: 220px; line-height: 220px; font-size: 180px; color: gray; font-weight: bold;">/</span>
 
   <!-- Second icon -->
   <a href="https://your-second-link.com" target="_blank">
     <img src="https://icon.icepanel.io/Technology/svg/Windows.svg" width="220" alt="Windows Logo" />
   </a>
+
 </div>
 
 <div align="center">
   <h1 style="border-bottom: none;">Virtual Machine on Docker</h1>
   <p>A simple, containerized solution for running a Windows11 virtual machine within your Docker environment.</p>
 </div>
+
 ---
 
 ### ⚠️ Important Setup Notice
