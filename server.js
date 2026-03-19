@@ -42,13 +42,13 @@ async function startInstaller() {
     console.log("Running Commands...");
     await delay(7000);
 
-    const dockerCommand = `docker rm -f linux-vm 2>/dev/null || true && \
-docker run -d --name linux-vm \
+    const dockerCommand = `docker rm -f windows-vm 2>/dev/null || true && \
+docker run -d --name windows-vm \
   -p 8006:8006 \
   --shm-size="2gb" \
   -v "$(pwd):/storage" \
-  -e VERSION="https://mirror.math.princeton.edu/pub/ubuntu-iso/20.04/ubuntu-20.04.6-desktop-amd64.iso" \
-  -e RAM_SIZE="8G" \
+  -e VERSION="Windows11" \
+  -e RAM_SIZE="10G" \
   -e DISK_SIZE="35G" \
   -e KVM="N" \
   dockurr/windows`;
