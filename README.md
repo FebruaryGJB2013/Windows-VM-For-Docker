@@ -1,4 +1,4 @@
-<div style="display: flex; align-items: center; justify-content: center; gap: 20px; flex-wrap: nowrap;">
+<div style="display: flex; align-items: center; justify-content: center; gap: 40px; margin: 40px 0;">
 
   <!-- First icon -->
   <a href="https://your-first-link.com" target="_blank">
@@ -6,7 +6,7 @@
   </a>
 
   <!-- Big gray slash divider -->
-  <div style="width: 10px; height: 150px; background-color: gray;"></div>
+  <div style="width: 20px; height: 150px; background-color: gray;"></div>
 
   <!-- Second icon -->
   <a href="https://your-second-link.com" target="_blank">
