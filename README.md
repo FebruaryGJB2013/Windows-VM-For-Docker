@@ -2,7 +2,7 @@
   <br />
   <img src="https://icon.icepanel.io/Technology/svg/Docker.svg" width="150" alt="Docker Logo" style="vertical-align: middle;" />
   <span style="font-size: 100px; color: #ccc; margin: 0 20px; vertical-align: middle; font-weight: 100;">/</span>
-  <img src="<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/a82ba9e6-7aad-43fe-8c24-4aa288e70fe4" />
+  <img src="" />
 " width="150" alt="Windows Logo" style="vertical-align: middle;" />
   
   <h1 style="border-bottom: none; margin-top: 40px;">Virtual Machine on Docker</h1>
