@@ -1,8 +1,15 @@
 <div align="center">
   <br />
-  <img src="https://icon.icepanel.io/Technology/svg/Docker.svg" width="220" alt="Docker Logo" />
-  
-  <h1 style="border-bottom: none;">Virtual Machine on Docker</h1>
+  <!-- Two icons side by side with a slash -->
+  <a href="https://your-first-link.com" target="_blank">
+    <img src="https://icon.icepanel.io/Technology/svg/Docker.svg" width="100" alt="Docker Logo" />
+  </a>
+  <span style="font-size: 24px; margin: 0 10px;">/</span>
+  <a href="https://your-second-link.com" target="_blank">
+    <img src="https://icon.icepanel.io/Technology/svg/Windows.svg" width="100" alt="Windows Logo" />
+  </a>
+
+  <h1 style="border-bottom: none; margin-top: 20px;">Virtual Machine on Docker</h1>
   <p>A simple, containerized solution for running a Windows11 virtual machine within your Docker environment.</p>
   <br />
 </div>
