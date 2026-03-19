@@ -1,23 +1,10 @@
-<div style="display: flex; align-items: center; justify-content: center; gap: 40px; margin: 40px 0;">
-
-  <!-- First icon -->
-  <a href="https://your-first-link.com" target="_blank">
-    <img src="https://icon.icepanel.io/Technology/svg/Docker.svg" width="150" alt="Docker Logo" />
-  </a>
-
-  <!-- Big gray slash divider -->
-  <div style="width: 20px; height: 150px; background-color: gray;"></div>
-
-  <!-- Second icon -->
-  <a href="[data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAMFBMVEUAeNT////v+P0AdNMAetVind4AedVem94AcdIAdtMAfdaNtuZdn+Dz+f0Ac9Ndn9/t/wXuAAAB5UlEQVR4nO3cTVKEMAAFYeRnQgYY739bq0Ys3WTla60w3Rd4fJuEVYa3qzf89wfgKew/hf2nsP8U9t9rCbeysO3Hc+fY4Z2yNYRlndAedXzujJXdmdbSEC51QKvzKZzhoWlRCKUwlkIshbEUYimMpRBLYSyFWApjKcRSGEshlsJYCrEUxlKIpTCWQiyFsRRiKYylEEthLIVYCmMpxFIYSyGWwlgKsRTGUoilMJZCLIWxFGIpjKUQS2EshVgKYynEUhhLIZbCWAqxFMZSiKUwlkIshbEUYimMpRBLYSyFWApjKcRSGEshlsJYTWGZKtuX8AbvNIV7ndFu91N4v7FD9b0hHPH+auhoCK+Zwv5T2H8/hQd+xp1D+E7rLN0H9pr6vg/ZnbnuDeFl/mker/tfqvC3KYylEEthLIVYCmMpxFIYSyGWwlgKsRTGUoilMJZCLIWxFGIpjKUQS2EshVgKYynEUhhLIZbCWAqxFMZSiKUwlkIshbEUYimMpRBLYSyFWApjKcRSGEshlsJYCrEUxlKIpTCWQiyFsRRiKYylEEthLIVYCmMpxFIYSyGWwlgKsRTGUoilMFb7xfKVfXRzGk5hhZ8RXUtDuJUFreyfb8OOOz20NYTXTGH/Kew/hf2nsP8U9t8HVBp7dWLkcCgAAAAASUVORK5CYII=](https://icones.pro/en/windows-icon-png-symbol-blue/)" target="_blank">
-    <img src="[data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAMFBMVEUAeNT////v+P0AdNMAetVind4AedVem94AcdIAdtMAfdaNtuZdn+Dz+f0Ac9Ndn9/t/wXuAAAB5UlEQVR4nO3cTVKEMAAFYeRnQgYY739bq0Ys3WTla60w3Rd4fJuEVYa3qzf89wfgKew/hf2nsP8U9t9rCbeysO3Hc+fY4Z2yNYRlndAedXzujJXdmdbSEC51QKvzKZzhoWlRCKUwlkIshbEUYimMpRBLYSyFWApjKcRSGEshlsJYCrEUxlKIpTCWQiyFsRRiKYylEEthLIVYCmMpxFIYSyGWwlgKsRTGUoilMJZCLIWxFGIpjKUQS2EshVgKYynEUhhLIZbCWAqxFMZSiKUwlkIshbEUYimMpRBLYSyFWApjKcRSGEshlsJYTWGZKtuX8AbvNIV7ndFu91N4v7FD9b0hHPH+auhoCK+Zwv5T2H8/hQd+xp1D+E7rLN0H9pr6vg/ZnbnuDeFl/mker/tfqvC3KYylEEthLIVYCmMpxFIYSyGWwlgKsRTGUoilMJZCLIWxFGIpjKUQS2EshVgKYynEUhhLIZbCWAqxFMZSiKUwlkIshbEUYimMpRBLYSyFWApjKcRSGEshlsJYCrEUxlKIpTCWQiyFsRRiKYylEEthLIVYCmMpxFIYSyGWwlgKsRTGUoilMFb7xfKVfXRzGk5hhZ8RXUtDuJUFreyfb8OOOz20NYTXTGH/Kew/hf2nsP8U9t8HVBp7dWLkcCgAAAAASUVORK5CYII=](https://icones.pro/en/windows-icon-png-symbol-blue/)" width="150" alt="Windows Logo" />
-  </a>
-
-</div>
-
-<div style="text-align: center; margin-top: 20px;">
+<div align="center">
+  <br />
+  <img src="https://icon.icepanel.io/Technology/svg/Docker.svg" width="220" alt="Docker Logo" />
+  
   <h1 style="border-bottom: none;">Virtual Machine on Docker</h1>
-  <p>A simple, containerized solution for running a Windows11 virtual machine within your Docker environment.</p>
+  <p>A simple, containerized solution for running a Linux virtual machine within your Docker environment.</p>
+  <br />
 </div>
 
 ---
