@@ -3,14 +3,14 @@
   <img src="https://icon.icepanel.io/Technology/svg/Docker.svg" width="220" alt="Docker Logo" />
   
   <h1 style="border-bottom: none;">Virtual Machine on Docker</h1>
-  <p>A simple, containerized solution for running a Linux virtual machine within your Docker environment.</p>
+  <p>A simple, containerized solution for running a Windows11 virtual machine within your Docker environment.</p>
   <br />
 </div>
 
 ---
 
 ### ⚠️ Important Setup Notice
-> **The installation process will take a while.** Please be patient and **only click once** when navigating the menus. During the Linux Ubuntu setup, the system lags heavily because KVM Hardware Acceleration is turned off (`KVM="N"`), And Make Sure You Have Enough Monthly Time To Do This If Your Using Github Codespaces!
+> **The installation process will take a while.** Please be patient and **only click once** when navigating the menus. During the Windows 11 setup, the system lags heavily because KVM Hardware Acceleration is turned off (`KVM="N"`), And Make Sure You Have Enough Monthly Time To Do This If Your Using Github Codespaces!
 
 ### Getting Started
 
@@ -20,13 +20,13 @@ To get your environment up and running, please follow the instructions below. En
 2. **Execute the following command** to pull the image and start the container:
 
 ```bash
-docker rm -f linux-vm 2>/dev/null || true && \
-docker run -d --name linux-vm \
+docker rm -f windows-vm 2>/dev/null || true && \
+docker run -d --name windows-vm \
   -p 8006:8006 \
   --shm-size="2gb" \
   -v "$(pwd):/storage" \
-  -e VERSION="https://mirror.math.princeton.edu/pub/ubuntu-iso/20.04/ubuntu-20.04.6-desktop-amd64.iso" \
-  -e RAM_SIZE="8G" \
+  -e VERSION="Windows11" \
+  -e RAM_SIZE="10G" \
   -e DISK_SIZE="35G" \
   -e KVM="N" \
   dockurr/windows
@@ -39,19 +39,19 @@ docker run -d --name linux-vm \
 To start the VM, run:
 
 ```bash
-docker start linux-vm
+docker start windows-vm
 ```
 
 To stop the VM, run:
 
 ```bash
-docker stop linux-vm
+docker stop windows-vm
 ```
 
 To view the live logs (helpful for troubleshooting), run:
 
 ```bash
-docker logs -f linux-vm
+docker logs -f windows-vm
 ```
 
 <p align="center">
