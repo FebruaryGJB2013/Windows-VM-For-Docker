@@ -2,7 +2,8 @@
   <br />
   <img src="https://icon.icepanel.io/Technology/svg/Docker.svg" width="150" alt="Docker Logo" style="vertical-align: middle;" />
   <span style="font-size: 100px; color: #ccc; margin: 0 20px; vertical-align: middle; font-weight: 100;">/</span>
-  <img src="[[https://icon.icepanel.io/Technology/svg/Windows.svg](https://icones.pro/wp-content/uploads/2021/06/icone-windows-bleu.png)](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTAxQE5bTI6NpeKdNi1DSpBczShU92bt5YJBmezJR7jRlIXCte:https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/windows-color-icon.svg&s)" width="150" alt="Windows Logo" style="vertical-align: middle;" />
+  <img src="https://skillicons.dev
+" width="150" alt="Windows Logo" style="vertical-align: middle;" />
   
   <h1 style="border-bottom: none; margin-top: 40px;">Virtual Machine on Docker</h1>
   <p>A simple, containerized solution for running a Windows 11 virtual machine within your Docker environment.</p>
